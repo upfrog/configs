@@ -1,0 +1,9 @@
+" Should be placed in the root directory of the vault, titled ".obsidian.vimrc". Be sure to check that Windows isn't treating it as a text file!
+
+
+" j and k navigate visual lines rather than logical ones
+nmap j gj
+nmap k gk
+
+" Direct yank to the system clipboard
+set clipboard=unnamed
